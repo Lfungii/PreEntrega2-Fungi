@@ -67,3 +67,12 @@ header {
 }
 
 /* Carrousel */
+
+.carrousel {
+    width: 400px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 405px;
+    margin-right: 800px;
+}
+
