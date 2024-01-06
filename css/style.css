@@ -37,6 +37,7 @@ header {
     border-color: black;
     color: black;
     background-color: white;
+    text-transform: uppercase;
 }
 
 .btnBuscar:hover {
@@ -46,7 +47,8 @@ header {
 .btnIniciarSesion {
     border-color: black;
     color: black;
-    background-color: white
+    background-color: white;
+    text-transform: uppercase;
 }
 
 .btnIniciarSesion:hover {
@@ -61,7 +63,7 @@ header {
     border: 3px solid black;
     border-radius: 0px;
     margin-left: 350px;
-    margin-right: 370px;
+    margin-right: 350px;
     margin-top: 50px;
     text-align: center;
 }
@@ -72,7 +74,44 @@ header {
     width: 400px;
     cursor: pointer;
     margin-top: 50px;
-    margin-left: 405px;
+    margin-left: 430px;
     margin-right: 800px;
+}
+
+/* Cards de productos */
+
+.productos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productos h2 {
+    font-size: 3rem;
+}
+
+.contenedorProductos {
+    justify-content: center;
+}
+
+.card {
+    border: none;
+}
+
+.btnProductos {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase
+}
+
+.btnProductos:hover {
+    background-color: black;
+    color: white;
 }
 
