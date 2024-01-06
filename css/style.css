@@ -163,3 +163,33 @@ header {
 
 /* Formulario de contacto */
 
+.btnEnviar {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.btnEnviar:hover {
+    background-color: black;
+    color: white;
+}
+
+.btnBorrar {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.btnBorrar:hover {
+    background-color: black;
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 0px;
+    margin-top: 20px;
+}
