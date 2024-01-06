@@ -107,11 +107,59 @@ header {
     border-color: black;
     color: black;
     background-color: white;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .btnProductos:hover {
     background-color: black;
     color: white;
 }
+
+.btnProd {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btnProd:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Redes sociales */
+
+.finalHeader {
+    border-top: 3px black solid;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.textoSociales {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.textoInstagram {
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.instagram {
+    width: 80px;
+    cursor: pointer;
+    display: flex;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Formulario de contacto */
 
