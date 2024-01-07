@@ -60,12 +60,8 @@ header {
 .menuNav {
     padding: 8px 16px;
     background-color: white;
-    border: 3px solid black;
-    border-radius: 0px;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 
 /* Carrousel */
