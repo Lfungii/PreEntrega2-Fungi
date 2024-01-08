@@ -185,6 +185,8 @@ header {
     margin-top: 20px;
     margin-inline-start: 5px;
     margin-right: 800px;
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
 
 .nombre {
@@ -192,3 +194,56 @@ header {
     margin-left: 5px;
 }
 
+/* Mapa */
+
+.mapa {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.tarjetas {
+    width: 30px;
+    height: 30px;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.email {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.ubicacion {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5px 5px 5px;
+    row-gap: 35px;
+    column-gap: 10px;
+    width: 80px;
+}
+
+.btnSubs {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btnSubs:hover {
+    background-color: black;
+    color: white;
+}
